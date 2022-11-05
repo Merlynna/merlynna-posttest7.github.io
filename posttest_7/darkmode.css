@@ -1,0 +1,75 @@
+body {
+     background-color: pink;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     transition: background-color 0.5s ease;
+}
+
+h2 {
+     color: deeppink;
+     font-family: "Century Gothic";
+     font-size: 20px;
+}
+.gambar {
+     margin: auto;
+     width: 500px;
+     padding: 40px;
+     background-color: palevioletred;
+     border-radius: 5px;
+     text-align: center;
+     transition: background-color 0.5s ease;
+}
+
+.gambar img {
+     width: 300px;
+     height: 300px;
+     margin-top: 30px;
+     margin-left: auto;
+     border: 6px solid mediumvioletred;
+}
+
+.gambar h2 {
+     text-align: center;
+     color: white;
+}
+
+.gambar p {
+     text-align: center;
+     font-size: 14px;
+}
+
+.gambar button {
+     padding: 10px;
+     cursor: pointer;
+     font-size: 12px;
+     border: none;
+     border-radius: 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gambar button.terang {
+     display: none;
+     background-color: white;
+}
+
+.gambar button.gelap {
+     background-color: black;
+     color: white;
+}
+
+/* Body Gelap */
+body.gelap {
+     background-color: black;
+}
+
+.gelap.gambar {
+     background-color: gray;
+     color: white;
+}
+
+.gelap.gambar button .terang {
+     display: inline;
+}
+
+.gelap.gambar button.gelap {
+     display: none;
+}

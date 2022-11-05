@@ -1,0 +1,68 @@
+body {
+     background-color: palevioletred;;
+}
+
+.card {
+     width: 300px;
+     height: 400px;
+     text-align: center;
+     border: 1px solid black;
+     margin: auto;
+     margin-top: 50px;
+}
+
+h3 {
+     font-size: 14px;
+}
+
+.card img {
+     width: 150px;
+     height: 250px;
+     margin-top: 40px;
+}
+
+.card h4 {
+     border: 1px solid white;
+     font-family: "Century Gothic";
+     font-size: 12px;
+}
+
+.back {
+     background-color: wheat;
+     border: 2px dashed white;
+     font-family: "Century Gothic";
+}
+
+.next {
+     background-color: plum;
+     color: black;
+     border: 2px dashed white;
+     font-family: "Century Gothic";
+}
+
+.card hr {
+     width: 40%;
+     color: deeppink;
+}
+
+.card p {
+     text-align: center;
+}
+
+.goback {
+     background-color: plum;
+     border: 2px dashed white;
+     color: white;
+     font-family: "Century Gothic";
+     font-size: 80%;
+}
+
+.card b {
+     background-color: pink;
+     color: white;
+}
+
+.card p {
+     font-family: "Century Gothic";
+     font-size: 12px;
+}

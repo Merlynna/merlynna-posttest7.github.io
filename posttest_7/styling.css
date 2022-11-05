@@ -1,0 +1,230 @@
+* {
+     box-sizing: border-box;
+     font-family: "Century Gothic", "Garamond";
+     font-size: 10px;
+}
+
+body {
+     background-color: papayawhip;
+     margin: 0;
+}
+
+.navtop {
+     background-color: salmon;
+     height: 60px;
+     width: 100%;
+     border: 0;
+}
+
+.navtop div {
+     display: flex;
+     margin: 0 auto;
+     width: 1000px;
+     height: 100%;
+}
+
+.navtop div h1, .navtop div a {
+     display: inline-flex;
+     align-items: center;
+}
+
+.navtop div h1 {
+     flex: 1;
+     font-size: 24px;
+     padding: 0;
+     margin: 0;
+     color: black;
+     font-weight: normal;
+}
+
+.navtop div a {
+     padding: 0 20px;
+     text-decoration: none;
+     color: orange;
+     font-weight: bold;
+}
+
+.navtop div a i {
+     padding: 2px 8px 0 0;
+}
+
+.navtop div a:hover {
+     color: deeppink;
+}
+
+.content {
+     width: 1000px;
+     margin: 0 auto;
+}
+
+.content h2 {
+     margin: 0;
+     padding: 25px 0;
+     font-size: 20px;
+     border-bottom: 1px solid yellow;
+     color: white;
+}
+
+.read .create-contact {
+     display: inline-block;
+     text-decoration: none;
+     background-color: antiquewhite;
+     font-weight: bold;
+     font-size: 14px;
+     color: black;
+     padding: 10px 15px;
+     margin: 15px 0;
+}
+
+.read .create-contact:hover {
+     background-color: darkolivegreen;
+}
+
+.read .pagination {
+     display: flex;
+     justify-content: flex-end;
+}
+
+.read .pagination d {
+     display: inline-block;
+     text-decoration: none;
+     background-color: peru;
+     font-weight: bold;
+     color: white;
+     padding:  5px 10px;
+     margin: 15px 0 15px 5px;
+}
+
+.read .pagination d:hover {
+     background-color: greenyellow;
+}
+
+.read table {
+     width: 100%;
+     padding-top: 30px;
+     border-collapse: collapse;
+}
+
+.read table thead {
+     background-color: deepskyblue;
+     border-bottom: 1px solid palevioletred;
+}
+
+.read table thead td {
+     padding: 10px;
+     font-weight: bold;
+     color: aquamarine;
+     font-size: 14px;
+}
+
+.read table tbody tr {
+     border-bottom: 1px solid violet;
+}
+
+.read table tbody tr:nth-child(ever){
+     background-color: deeppink;
+}
+
+.read table tbody tr:hover {
+     background-color: darkblue;
+}
+
+.read table tbody tr:hover td {
+     color: black;
+}
+
+.read table tbody tr:hover td:nth-child(1){
+     color: hotpink;
+}
+
+.read table tbody tr td {
+     padding: 10px;
+}
+
+.read table tbody tr td:nth-child(1){
+     color: antiquewhite;
+}
+
+.read table tbody tr td.actions {
+     padding: 8px;
+     text-align: right;
+}
+
+.read table tbody tr td.actions .edit, .read table tbody tr td.actions.trash {
+     display: inline-flex;
+     text-align: right;
+     text-decoration: none;
+     color: deeppink;
+     padding: 10px 12px;
+}
+
+.read table tbody tr td.actions .trash {
+     background-color: green;
+}
+
+.read table tbody tr td.actions .trash:hover{
+     background-color: greenyellow;
+}
+
+.read table tbody tr td.actions .edit {
+     background-color: orangered;
+}
+
+.read table tbody tr td.actions .edit:hover {
+     background-color: mediumvioletred;
+}
+
+.update form {
+     padding: 15px 0;
+     display: flex;
+     flex-flow: wrap;
+}
+
+.update form label {
+     display: inline-flex;
+     width: 400px;
+     padding: 10px 0;
+     margin-right: 25px;
+}
+
+.update form input {
+     padding: 10px;
+     width: 400px;
+     margin-right: 25px;
+     margin-bottom: 15px;
+     border: 1px solid red;
+}
+
+.update form input[type="submit"] {
+     display: block;
+     background-color: black;
+     border: 0;
+     font-weight: bold;
+     font-size: 14px;
+     color: white;
+     cursor: pointer;
+     width: 200px;
+     margin-top: 15px;
+}
+
+.update form input[type="submit"]:hover {
+     background-color: paleturquoise;
+}
+
+.delete .yesno {
+     display: flex;
+}
+
+.delete .yesno a {
+     display: inline-block;
+     text-decoration: none;
+     background-color: burlywood;
+     font-weight: bold;
+     color: white;
+     padding: 10px 15px;
+     margin: 15px 10px 15px 0;
+}
+
+.delete .yesno a:hover {
+     background-color: mediumpurple;
+}

@@ -1,0 +1,18 @@
+body {
+     background-color: palevioletred;
+}
+
+.photo img {
+     width: 300px;
+     height: 360px;
+     margin-left: 640px;
+     border: 3px dashed black;
+}
+
+button {
+     margin-left: 760px;
+     background-color: pink;
+     color: white;
+     font-family: "Garamond";
+     font-size: 15px;
+}

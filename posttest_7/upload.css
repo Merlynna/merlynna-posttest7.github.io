@@ -1,0 +1,63 @@
+body {
+     background-color: palevioletred;
+}
+
+h4 {
+     margin: auto;
+     color: gold;
+     text-align: center;
+}
+
+hr {
+     width: 80%;
+     color: white;
+}
+
+table {
+     text-align: center;
+     color: wheat;
+     width: 80%;
+     margin-top: -10px;
+}
+
+table th {
+     background-color: hotpink;
+     color: white;
+     font-family: "Century Gothic";
+     font-size: 12px;
+}
+
+table td {
+     background-color: pink;
+     color: black;
+     font-family: "Century Gothic";
+     font-size: 12px;
+}
+
+h5 {
+     font-family: "Century Gothic";
+     font-size: 12px;
+     margin-left: 126px;
+}
+
+td img {
+     width: 80px;
+     height: 80px;
+     margin-top: 5px;
+}
+
+button {
+     background-color: hotpink;
+     border: 2px dashed white;
+     font-family: "Century Gothic";
+     font-size: 12px;
+}
+
+.if {
+     background-color: hotpink;
+     border: 2px dashed white;
+     font-family: "Century Gothic";
+     font-size: 12px;
+     margin-top: 15px;
+     margin-left: 128px;
+}

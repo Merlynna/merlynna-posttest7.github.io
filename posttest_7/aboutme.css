@@ -1,0 +1,42 @@
+body {
+     background-color: palevioletred;
+}
+
+.foto img {
+     width: 200px;
+     height: 250px;
+     margin-top: 70px;
+     margin-left: 690px;
+     border: 2px dashed white;
+}
+
+.foto p {
+     font-size: 15px;
+}
+
+.foto hr {
+     width: 70%;
+     color: black;
+}
+
+p {
+     font-size: 20px;
+     text-align: center;
+     color: black;
+     font-family: "Century Gothic";
+     font-size: 10p;
+}
+
+h1 {
+     font-family: "Century Gothic";
+     font-size: 18px;
+}
+
+button {
+     background-color: deeppink;
+     color: pink;
+     font-size: 15px;
+     font-family: "Century Gothic";
+     margin-left: 756px;
+}
+

@@ -1,0 +1,43 @@
+body {
+     background-color: palevioletred;
+     color: wheat;
+}
+
+h1 {
+     text-align: center;
+     color: black;
+     font-family: "Garamond";
+     font-size: 20px;
+}
+
+hr {
+     width: 70%;
+     color: lightgoldenrodyellow;
+}
+
+h4 {
+     font-family: "Century Gothic";
+     color: black;
+     font-size: 12px;
+     margin-top: 10px;
+     margin-left: 247px;
+}
+
+table th {
+     color: honeydew;
+     font-family: "Century Gothic";
+     font-size: 12px;
+}
+
+table td {
+     color: black;
+     font-family: "Century Gothic";
+     font-size: 12px;
+}
+
+button {
+     font-family: "Century Gothic";
+     margin-left: 555px;
+     background-color: deeppink;
+     color: white;
+}
